@@ -1,0 +1,28 @@
+body{
+    background-color: #006666;  
+}
+.container{
+    background-color: #ffff;
+}
+h1{
+    color: #006666;
+}
+article h2{
+    color: #999999;
+    border-bottom: 2px solid #006666;
+}
+h2+h3{
+    font-size: 25px;
+}
+section>h2{
+    color: #006666;
+}
+p+h4{
+    justify-content: center;
+}
+
+/* @media screen and (min-width:576px){
+h1+p{
+    text-align: center;
+}
+} */
